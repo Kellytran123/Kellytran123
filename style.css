@@ -1,18 +1,28 @@
 <style> 
       body {background-color: antiquewhite;
       }
-      h1 {
-        text-color: antibrown;
-        text-allign: center
-      }
-      
-      a { 
-        text - decoration: overline;
-        color: red;
-        font-sized: 25px;
-      }
-      a: hover    {
-        background-color: yellow;
-        font-sized: 25px;
-      }
+      #Vietnamesfood {width: 260px;
+  height: 195px;
+  margin: 10px;
+  border-color: saddlebrown;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;}
+#phobo {width: 240px;
+  height: 180px;
+  margin: 10px;
+  border-color: saddlebrown;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;}
+#banhmi {width: 240px;
+  height: 180px;
+  margin: 10px;
+  border-color: saddlebrown;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;}
+Aa
+
+
     </style>
