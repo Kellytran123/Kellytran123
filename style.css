@@ -1,24 +1,15 @@
   h1 {width: 260px;
   height: 195px;
   margin: 10px;
-  border-color: saddlebrown;
-  border-width: 4px;
-  border-style: solid;
-  border-radius: 10px;}
+  }
   h2 {width: 240px;
   height: 180px;
   margin: 10px;
-  border-color: saddlebrown;
-  border-width: 4px;
-  border-style: solid;
-  border-radius: 10px;}
+}
  h3 {width: 240px;
   height: 180px;
   margin: 10px;
-  border-color: saddlebrown;
-  border-width: 4px;
-  border-style: solid;
-  border-radius: 10px;}
+}
 
 
     </style>
