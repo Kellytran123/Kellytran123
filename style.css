@@ -1,3 +1,18 @@
-body {
-
-}
+<style> 
+      body {background-color: antiquewhite;
+      }
+      h1 {
+        text-color: antibrown;
+        text-allign: center
+      }
+      
+      a { 
+        text - decoration: overline;
+        color: red;
+        font-sized: 25px;
+      }
+      a: hover    {
+        background-color: yellow;
+        font-sized: 25px;
+      }
+    </style>
