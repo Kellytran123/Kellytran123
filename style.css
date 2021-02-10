@@ -3,4 +3,7 @@ h1 {
   font-size: 25px;
   text - allign: center;
 }
+td {
+  border: 1px solid black;
+}
 
