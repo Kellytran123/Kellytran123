@@ -1,15 +1,15 @@
-  h1 {width: 260px;
-  height: 195px;
-  margin: 10px;
-  }
-  h2 {width: 240px;
-  height: 180px;
-  margin: 10px;
-}
- h3 {width: 240px;
-  height: 180px;
-  margin: 10px;
-}
+h1 {color:red;
+  text-align: center;
+  text-decoration: dotted underline;
+  text-shadow: -1px 1px;
+  font-family:inherit;
+  font-size: 27px;
+  letter-spacing: 3px}
 
+h2 {color: orangered;
+  text-decoration: underline;
+  font-family: monospace;
+  font-size: 24px;
+  letter-spacing: 1px;}
 
     </style>
