@@ -4,6 +4,7 @@ h1 {
   text - allign: center;
 }
 table {
-  border: 1px solid black;
-}
-
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+  }
