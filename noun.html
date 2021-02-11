@@ -5,7 +5,7 @@
   </head>
   
   <body>
-    <table>
+   <table align="center" id="classes">
        <tr>
       <th> Food </th>
       <th> Place </th>
@@ -54,8 +54,20 @@
       h1 {
         text-allign: center;
       }
-      table {
-         border: 1px solid black;
+     table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+  }
+
+td, th {
+  border: 5px solid #D3D3D3;
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #D3D3D3;
 }
     body {
       background-color: antiquewhite;
