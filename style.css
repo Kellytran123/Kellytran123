@@ -8,3 +8,8 @@ table {
   border-collapse: collapse;
   width: 75%;
   }
+td, th {
+  border: 5px solid #D3D3D3;
+  text-align: left;
+  padding: 5px;
+}
