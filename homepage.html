@@ -49,6 +49,9 @@
       
     <p>  Vietnamese cuisine is fresh and light in character. Following a deeply rooted food philosophy that aims at harmonising yin and yang through nutrition, nearly all Vietnamese dishes perfectly balance out greens and vegetables, proteins and carbohydrates. Portions are not humongous like in other parts of the world, but stomach-filling.
 <div class="wrapper">
+     <div class="container">
+    
+    <div class="wrapper">
       <img src="https://deih43ym53wif.cloudfront.net/bun-cha-vietnam-food-shutterstock_769738648_a1baaf2235.jpeg" class ="img" alt="">
      </body>
           <style> 
@@ -90,6 +93,21 @@ margin: 5px;}
   border-collapse: collapse;
   width: 75%;
   }
+.container{
+  width: 100%; /*-- Since we got rid of the margins and padding we have an actual width of 100% --*/
+  height: 100vh; /*-- VH stands for view height. In this case this container takes up 100% of the viewing port --*/
+  display: flex; /*- one of the displaying option. I used flex to -*/
+  justify-content: center;/*- center content relative to the vertical axis-*/
+  align-items: center;/*- center content relative to the horizontal axis-*/
+  flex-direction: column;/*-There's also a row option which will organize them in rows-*/
+}
+  .wrapper{
+  position: relative; /*-- this option is used for another property (position absolute) --*/
+  width: 50%;
+  padding: 10px;/*-Inner space-*/
+  border-radius: 50px;/*- something that make the corners go round-*/
+  box-shadow: -3px -3px 7px #ffffff85, 3px 3px 5px rgba(94,104,121, 0.288);/*-box shadow-*/
+}
 
 td, th {
   border: 5px solid #D3D3D3;
