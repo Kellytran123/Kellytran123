@@ -1,28 +1,84 @@
    <html>
      <body>
-<ul> 
-    <li ><a href="index.html">Home</a></li>
-    <li><a href="noun.html">Breakfast</a> </li>
-       <li><a href="homepage.html">Convince</a> </li>
-        <li><a href="home.html">Food</a> </li>
-       
+<ul class="nav">
+    <li class="nav"> <a href="#home"> Home </a></li>
+    <li class="nav"> <a href="#h2"> BreakFast </a></li>
+    <li class="nav"> <a href="https://www.google.com"> Convince </a></li>
+    <li class="nav"> <a href="#circle"> Food </a></li>
+    <li class="nav"> <a href="#h4"> Menu </a></li>
+
   </ul>
        <div class="typewriter">
-<h1>Hi there, I'm Diana.</h1>
+<h1>Hi there, I'm Kelly.</h1>
 
-<p id="line-1">An independent web developer, based in Bali.</p>
-<p id="line-2">Send me a message to discuss your project.</p>
+<p id="line-1">A student from Westview High School, based in CA.</p>
+  <p id="line-2">We are selling ice cream and the price is so affordable.</p>       
+<p id="line-3">Our ice cream is 100% handmade and the ingredient is fresh! Please buy it! </p>
 <a href="mailto:di.lisova@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
 </div>
-
+         <table align="center" id="classes">
+    <tr>
+      <th> Class </th>
+      <th> Teacher </th>
+      <th> Grade </th>
+    </tr>
+    
+   <tr> 
+     <td> Comp Sci Principles </td>
+     <td> Neumann </td>
+     <td> F </td>
+    </tr>
+    
+    <tr> 
+     <td> Human Bio </td>
+     <td> Dixon </td>
+     <td> A- </td>
+    </tr>
+    
+    <tr> 
+     <td> ENS </td>
+     <td> Champoux </td>
+     <td> C </td>
+    </tr>
+    
+    <tr> 
+     <td> Geology </td>
+     <td> Christopher </td>
+     <td> B </td>
+    </tr> 
+  </table>  
+        <section id="sky">
+     
+    <svg width="500" height="500">
+      <circle class="sun" cx="80" cy="80" r="60" fill="#ffce42"/>
+        
+    <!--sand section-->
+      <rect class="sand" width="343" height="150" x="0" y="365" fill="#edc9af" />
+        
+        
+    <!--Water section--> 
+      <path class="water" d="M 0 365 C 50 460, 50 420, 343 350" stroke="#cdebf9" fill="#cdebf9"/>
+       
+      <path class="water" d="M 0 365 C 155 380, 190 200, 343 350" stroke="#1e90ff" fill="#1e90ff"/>
+        
+      <path class="water" d="M 0 366 C 200 230, 155 380, 343 350" stroke="#4682b4" fill="#4682b4"/>  
+        
+      <path class="water" d="M 0 365 C 150 375, 350 450, 343 350" stroke="#87cefa" fill="#87cefa"/>
+        
+      <path class="water" d="M 0 365 C 170 440, 200 410, 343 350" stroke="#00bfff" fill="#00bfff"/>
+        
+      <path class="water" d="M 0 365 C 30 410, 30 420, 343 350" stroke="#b0c4de" fill="#b0c4de"/>
+            
+    </svg> 
+    </section>
         </body>
         <style> 
-          body {
-  background: rgb(43,78,104);
+     
+       body {
+  background: #edafb4;
   color: rgb(220,220,220);
   font-family: 'Fira Code', monospace;
 }
-  
 .typewriter {
   position: absolute;
   top: 35%;
@@ -54,11 +110,22 @@
   border-right: 1px solid white;
   white-space: nowrap;
   overflow: hidden;
-  width: 405px;
+  width: 519px;
   white-space: nowrap;
   overflow: hidden;
   animation: typewriter 3s steps(40) 1s 1 normal both;
   animation-delay: 7s;
+}
+          
+          #line-3 {
+  border-right: 1px solid white;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 519px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 3s steps(40) 1s 1 normal both;
+  animation-delay: 10s;
 }
 
 @keyframes typewriter {
@@ -95,34 +162,89 @@ a {
 from {opacity:0;}
 to {opacity:1;}
 }
+li.nav {
+  float: right;
+  background-color: #55A5FF;
+  display: inline;
+}
+li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+}
 
-  ul {
+li a:hover {
+  background-color: salmon;
+}
+ ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   position: fixed;
-  background-color: #D3D3D3;
+  overflow: hidden;
   width: 100%;
+  background-color: #55A5FF;
   top: 0;
-  left: 0;
-  
+}
+          table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+  }
+
+td, th {
+  border: 5px solid #D3D3D3;
+  text-align: left;
+  padding: 5px;
+}
+#sky {
+background-color:#edafb4;
+animation-name:sky;
+animation-duration:10s;
+animation-iteration-count:infinite;
 }
 
-li {
-  display: inline;
-  float: left;
-width: 50px;
-   letter-spacing: 1px;
-padding: 5px;
-margin: 5px;}
-
-li a:hover {
-  background-color: #e76f51;
-   letter-spacing: 1px;
-   color: #1b433
-  color: green;
-  font-size: 17px;
+#sky {
+background-color:#edafb4;
+animation-name:sky;
+animation-duration:20s;
+animation-iteration-count:infinite;
 }
-     
+
+.sun{
+    animation-name:sun;
+    animation-duration:20s;
+    animation-iteration-count:infinite;
+}
+    
+@keyframes sun{
+    50%{
+        transform:translate(80px,195px);
+        fill:#ff7f42;
+    }
+}
+
+@keyframes sky{
+    50%{
+        background-color:#ee5d6c;
+    }
+}
+body {
+background-color:#edafb4;
+animation-name:sky;
+animation-duration:10s;
+animation-iteration-count:infinite;
+}
+
+body {
+background-color:#edafb4;
+animation-name:sky;
+animation-duration:20s;
+animation-iteration-count:infinite;
+}
+
+
+         
     </style>
         </html>
