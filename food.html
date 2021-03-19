@@ -4,6 +4,13 @@
   <title> Our Story</title>
   </head>
   <body>
+	  <ul class="nav">
+    <li class="nav"> <a href="#index.html"> Home </a></li>
+    <li class="nav"> <a href="food.html"> Food </a></li>
+    <li class="nav"> <a href="home.html"> Menu </a></li>
+    <li class="nav"> <a href="shipping.html"> Shipping Policy </a></li>
+
+  </ul>
 <div class="container">
 	<div class="polaroid">
 		<img class="photo" src="https://images.unsplash.com/photo-1596815045171-88fd3eb19f90?w=611" alt="">		
@@ -71,6 +78,31 @@
 </div>
   </body>
   <style>
+	  li.nav {
+  float: right;
+  background-color: #55A5FF;
+  display: inline;
+}
+li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  background-color: salmon;
+}
+ ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  background-color: #55A5FF;
+  top: 0;
+}
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
 	font-family: 'Roboto', sans-serif; 
