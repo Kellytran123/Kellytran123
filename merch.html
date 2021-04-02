@@ -10,7 +10,7 @@
     <div class="dropdown">
       <a href="homeevent.html">Home</a>
       <a href="price.html">Price</a>
-      <a href="hihi.html"></a>
+      <a href="merch.html">Merch</a>
 	<a href="kelly.html">FAQ</a>
     </div>
   </span>
@@ -187,41 +187,51 @@
 		</svg>
 	</div>
 </div>
-	  <center
+    <center>
 <div class="container">
     
   <div class="bookContainer" id="book01">
     <div class="bookImage" id="img01">&nbsp;</div>
     <p class="bookTitle">
-      "How to Cook Kroback" <br/> Andrew Mitt
+      4 flavor ice cream T-shirt <br/> Unisex
     </p>
-    <div class="bookPrice">1850 CR</div>
+    <div class="bookPrice">$8.50</div>
     <p class="bookEdition">Limited Edition</p>
   </div>
   
   <div class="bookContainer" id="book02">
     <div class="bookImage" id="img02">&nbsp;</div>
-    "Omega Mountain" <br/>
-    Gregory C. Thompson <br/>
+    Melting ice cream T-shirt <br/>
+    Unisex <br/>
     <a href="#">6.99 $</a>
   </div>
   
   <div class="bookContainer" id="book03">
     <div class="bookImage" id="img03">&nbsp;</div>
-    "You Don't Have To Put On" <br/>
-    Scott Martin <br/>
-    <a href="#">4.50 $</a>
+    Black Ice Cream T-shirt <br/>
+    Unisex <br/>
+    <a href="#">7.50 $</a>
   </div>
   
   <div class="bookContainer" id="book04">
     <div class="bookImage" id="img04">&nbsp;</div>
-    "Hoxkit" <br/>
-    Abraham Russo <br/>
-    <a href="#">1.75 $</a>
+    3 flavor ice cream T-shirt <br/>
+    For women <br/>
+    <a href="#">7.75 $</a>
   </div>
-
   
+ 
+  
+
+   
+
 </div>
+      
+      <div class="con">
+     <div class="btm"></div>
+     <div class="ice one"></div>
+     <div class="ice two"></div>
+  </div>
      <!-- FOOTER START -->
 <div class="footer">
   <div class="contain">
@@ -286,9 +296,9 @@
 </div>
 </div>
 <!-- END OF FOOTER -->
-  </body>
-  <style>
-    @import 'https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap';
+	    </body>
+	  <style>
+		  @import 'https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap';
 @import 'https://unpkg.com/tailwindcss/dist/tailwind.min.css';
 @import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 @import url("https://fonts.googleapis.com/css?family=Fredoka+One");
@@ -654,6 +664,7 @@ body{background-color:#eee;}
 }
 
 
+
 .bookPrice {
   background: #f8f6f2;
   color: #27ae60;
@@ -674,6 +685,96 @@ body{background-color:#eee;}
   font-size: 0.8em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+}
+.con {
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  perspective: 1000px;
+}
+.con * {
+   position: absolute;
+}
+*::before,
+*::after {
+  content: '';
+  position: absolute;
+}
+
+.btm,
+.ice{
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btm {
+  border-style: solid;
+  border-width: 220px 60px 40px 60px;
+  border-color: #f6bd4c transparent transparent transparent;
+  width: 6px;
+  top: -240px;
+  animation: animateBtm .5s linear forwards;
+}
+
+.ice {
+  height: 110px;
+  width: 140px;
+  top: -150px;
+}
+.ice::before,
+.two::after {
+  top: 90%;
+  height: 0%;
+  width: 19px;
+  border-radius: 0 0 10px 10px;
+}
+
+
+.one {
+  background: #b54d40;
+  border-radius: 50px 50px 10px 10px;
+  animation: animateIceOne .5s linear .5s forwards;
+}
+.one::before {
+  background-color: #b54d40;
+  left: 20%;
+  animation: animateIceOneBef 2s linear 1.5s forwards;
+}
+
+
+.two {
+  background-color: #d4e6f2;
+  border-radius: 50% 50% 30% 30%;
+  height: 140px;
+  animation: animateIceTwo .5s linear 1s forwards;
+}
+.two::before {
+  background-color: #d4e6f2;
+  right: 15%;
+  animation: animateIceTwoBef 2s linear 1.5s forwards;
+}
+.two::after {
+  background-color: #d4e6f2;
+  right: 30%;
+  animation: animateIceOneBef 2s linear 1.5s forwards;
+}
+
+
+@keyframes animateBtm {
+  to { top: 220px; }
+}
+@keyframes animateIceOne {
+  to { top: 110px; }
+}
+@keyframes animateIceOneBef {
+  to { height: 40px; }
+}
+@keyframes animateIceTwo {
+  to { top: 20px; }
+}
+@keyframes animateIceTwoBef {
+  to { height: 65px; }
 }
 /* STYLES SPECIFIC TO FOOTER  */
 .footer {
@@ -775,5 +876,5 @@ body{background-color:#eee;}
     width: 100%;
   }
 } 
-  </style>
-</html>
+	  </style>
+	  </html>
