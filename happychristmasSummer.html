@@ -35,7 +35,7 @@
                                     <table border="0" cellspacing="0" cellpadding="0" width="100%" class="emailwrapto100pc">
                                       <tr>
                                         <td class="emailcolsplit" align="left" valign="top" width="58%">
-                                           <p style="color:#222222; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:19px; margin-top:0; margin-bottom:20px; padding:0; font-weight:normal;">
+                                            <p style="color:#222222; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:19px; margin-top:0; margin-bottom:20px; padding:0; font-weight:normal;">
                                               You are a sweet, beautiful girl; I hope you will have a whole year of good health and doing best in school. I know you are always trying your best at school, so yeah, keep it going, babyyyyy! Thank you for everything you've done for me; I am so blessed to have you as my best friend! Love you <33                                       </p>
                                         </td>
                                         <td class="emailcolsplit" align="left" valign="top" width="42%" style="padding-left:17px;max-width:231px;">
@@ -79,7 +79,7 @@
             </tr>
         </table>
         </div>
-      </td>
+		</td>
 	</tr>
 </table> 
 </body>
@@ -113,6 +113,7 @@ h1 {
   opacity: .8;
 }
 /* PUT ALL CSS IN THE EMAIL <HEAD>
+
 These styles are meant for clients that recognize CSS in the <head>; the email WILL STILL WORK for those that don't. */
 
 #outlook a{padding:0;}
@@ -122,7 +123,7 @@ body{width:100% !important; background-color:#41849a;-webkit-text-size-adjust:no
 ol li {margin-bottom:15px;}
 	
 img{height:auto; line-height:100%; outline:none; text-decoration:none;}
-  #backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
 	
 p {margin: 1em 0;}
 	
@@ -167,7 +168,7 @@ table[class="fulltable"], td[class="fulltd"] {
   var TOTAL = 25;
   var SIZE = 3.5;
   var CURVE = 0.25;
-    var ENERGY = 0.01;
+  var ENERGY = 0.01;
   var FALLING_CHANCE = 0.2;
 
   var canvas = document.querySelector('canvas');
@@ -212,7 +213,7 @@ table[class="fulltable"], td[class="fulltd"] {
   function drawShape() {
     cx.stroke();
     cx.fill();
-       cx.restore();
+    cx.restore();
   }
 
   Star.prototype.shine = function() {
@@ -257,7 +258,7 @@ table[class="fulltable"], td[class="fulltd"] {
     cx.save();
     cx.translate(this.x + this.vx, this.y + this.vy);
     cx.scale(1, Math.pow(this.e, 2));
-      cx.beginPath();
+    cx.beginPath();
     cx.rotate(this.rp);
     this.rp += .1;
     cx.moveTo(0, 0 - this.r);
@@ -302,7 +303,7 @@ table[class="fulltable"], td[class="fulltd"] {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
   }
-  
+
   function mouseMove(e) {
     if (falling_star) {
       if (e.clientX > falling_star.x - 2 * falling_star.r && e.clientX < falling_star.x + 2 * falling_star.r && e.clientY > falling_star.y - 2 * falling_star.r && e.clientY < falling_star.y + 2 * falling_star.r) {
