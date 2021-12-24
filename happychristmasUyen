@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="bird.png">
+  <title>Aerial Theme Park</title>
+</head>
+<body style="width:100% !important; margin:0 !important; padding:0 !important; -webkit-text-size-adjust:none; -ms-text-size-adjust:none; background-color:#FFFFFF;">
+<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="height:auto !important; margin:0; padding:0; width:100% !important; background-color:#E7DDDB; color:#222222;">
+	<tr>
+		<td>
+         <div id="tablewrap" style="width:100% !important; max-width:600px !important; text-align:center !important; margin-top:0 !important; margin-right: auto !important; margin-bottom:0 !important; margin-left: auto !important;">
+		      <table id="contenttable" width="600" align="center" cellpadding="0" cellspacing="0" border="0" style="background-color:#EEE3E1; text-align:center !important; margin-top:0 !important; margin-right: auto !important; margin-bottom:0 !important; margin-left: auto !important; border:none; width: 100% !important; max-width:600px !important;">
+            <tr>
+                <td width="100%">
+                    <table bgcolor="#EEE3E1" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tr>
+                            <td width="100%" bgcolor="#ffffff" style="text-align:center;"><a href="#"><img src="https://i.natgeofe.com/k/dfc7bec2-0657-4887-81a7-6d024a8c3f70/WH-XmasTree.jpg" alt="Main banner image and link" style="display:inline-block; max-width:100% !important; width:100% !important; height:auto !important;border-bottom-right-radius:8px;border-bottom-left-radius:8px;" border="0"></a>
+                            </td>
+                        </tr>
+                   </table>
+                   <table bgcolor="#FFFFFF" border="0" cellspacing="0" cellpadding="25" width="100%">
+                        <tr>
+                            <td width="100%" bgcolor="#ffffff" style="text-align:left;">
+                            	<p style="color:#222222; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:19px; margin-top:0; margin-bottom:20px; padding:0; font-weight:normal;">
+                                    My beautiful Uyen,                                  
+                                </p>
+                            	<p style="color:#222222; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:19px; margin-top:0; margin-bottom:20px; padding:0; font-weight:normal;">
+                                    Bacon ipsum dolor sit amet leberkas pork chop bacon doner venison hamburger pastrami bresaola short ribs filet mignon ham prosciutto, <a style="color:#F52115; font-weight:bold; text-decoration:underline;" href="#">call to action</a>!
+                                </p>
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" class="emailwrapto100pc">
+                                      <tr>
+                                        <td class="emailcolsplit" align="left" valign="top" width="58%">
+                                            <p style="color:#222222; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:19px; margin-top:0; margin-bottom:20px; padding:0; font-weight:normal;">
+                                                Swine pork salami, beef ribs doner pastrami fatback. Bacon ipsum dolor sit amet leberkas pork chop bacon doner venison hamburger pastrami bresaola short ribs filet mignon ham prosciutto salami tri-tip. Turducken pork pancetta meatloaf venison. Spare ribs tongue drumstick pastrami frankfurter brisket shoulder. Ground round capicola filet mignon chicken cow boudin venison bacon.                                            </p>
+                                        </td>
+                                        <td class="emailcolsplit" align="left" valign="top" width="42%" style="padding-left:17px;max-width:231px;">
+                                            <a href="#"><img src="https://static.vecteezy.com/system/resources/previews/000/673/600/non_2x/vector-merry-christmas-card.jpg" alt="Supporting image 1" style="display:block; width:100% !important; height:auto !important;border-radius:8px;" border="0"></a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td class="emailcolsplit" align="left" valign="top" width="58%">
+                                            <p style="color:#222222; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:19px; margin-top:0; margin-bottom:20px; padding:0; font-weight:normal;">
+                                                Ham hock pork chop jerky, turducken kielbasa meatball sausage drumstick bacon fatback corned beef meatloaf pork belly rump. Boudin cow hamburger ball tip chuck rump meatball. Andouille tenderloin flank, strip steak pork loin biltong swine turducken rump pork belly ball tip jowl. Hamburger tail short loin jerky doner venison rump ham ground round pork chop turkey fatback prosciutto.
+                                            </p>
+                                        </td>
+                                        <td class="emailcolsplit" align="left" valign="top" width="42%" style="padding-left:17px;max-width:231px;">
+                                            <a href="#"><img src="https://static-cse.canva.com/blob/573005/AStunningCollectionof50DesignerChristmasCardsforYourInspiration_Thumb.png" alt="Supporting image 2" style="display:block; width:100% !important; height:auto !important;border-radius:8px;" border="0"></a>
+                                        </td>
+                                      </tr>
+                                    </table>
+    
+                            </td>
+                        </tr>
+                   </table>
+                   <table bgcolor="#FFFFFF" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tr>
+                          <td width="100%" bgcolor="#ffffff" style="text-align:center;"><a style="font-weight:bold; text-decoration:none;" href="#"><div style="display:block; max-width:100% !important; width:93% !important; height:auto !important;background-color:#c42d2d;padding-top:15px;padding-right:15px;padding-bottom:15px;padding-left:15px;border-radius:8px;color:#ffffff;font-size:24px;font-family:Arial, Helvetica, sans-serif;">Happy Christmas to sweet Uyen!</div></a></td>
+                        </tr>
+                   </table>
+                   <table bgcolor="#FFFFFF" border="0" cellspacing="0" cellpadding="25" width="100%">
+                        <tr>
+                            <td width="100%" bgcolor="#ffffff" style="text-align:left;">
+                            	<p style="color:#222222; font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:14px; margin-top:0; margin-bottom:15px; padding:0; font-weight:normal;">
+                                    Email not displaying correctly? <a style="color:#2489B3; font-weight:bold; text-decoration:underline;" href="#">View it in your browser.</a>
+                                </p>
+                            	<p style="color:#222222; font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:14px; margin-top:0; margin-bottom:15px; padding:0; font-weight:normal;">
+                                    Copyright 2021 | Kelly la so 1 | All Rights Reserved.<br>
+                                    Đẹp không mày :)) thích thì thích không thích cũng phải <a style="color:#2489B3; font-weight:normal; text-decoration:underline;" href="#">thích</a>.
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        </div>
+		</td>
+	</tr>
+</table> 
+</body>
+<style>
+/* PUT ALL CSS IN THE EMAIL <HEAD>
+
+These styles are meant for clients that recognize CSS in the <head>; the email WILL STILL WORK for those that don't. */
+
+#outlook a{padding:0;}
+body{width:100% !important; background-color:#41849a;-webkit-text-size-adjust:none; -ms-text-size-adjust:none;margin:0 !important; padding:0 !important;}  
+.ReadMsgBody{width:100%;} 
+.ExternalClass{width:100%;}
+ol li {margin-bottom:15px;}
+	
+img{height:auto; line-height:100%; outline:none; text-decoration:none;}
+#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+	
+p {margin: 1em 0;}
+	
+h1, h2, h3, h4, h5, h6 {color:#222222 !important; font-family:Arial, Helvetica, sans-serif; line-height: 100% !important;}
+	
+table td {border-collapse:collapse;}
+	
+.yshortcuts, .yshortcuts a, .yshortcuts a:link,.yshortcuts a:visited, .yshortcuts a:hover, .yshortcuts a span { color: black; text-decoration: none !important; border-bottom: none !important; background: none !important;}
+	
+.im {color:black;}
+div[id="tablewrap"] {
+		width:100%; 
+		max-width:600px!important;
+	}
+table[class="fulltable"], td[class="fulltd"] {
+		max-width:100% !important;
+		width:100% !important;
+		height:auto !important;
+	}
+			
+@media screen and (max-device-width: 430px), screen and (max-width: 430px) { 
+		td[class=emailcolsplit]{
+			width:100%!important; 
+			float:left!important;
+			padding-left:0!important;
+			max-width:430px !important;
+		}
+    td[class=emailcolsplit] img {
+    margin-bottom:20px !important;
+    }
+}
+</style>
